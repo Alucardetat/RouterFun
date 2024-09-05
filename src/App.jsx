@@ -16,10 +16,12 @@ function App() {
   return (
     <>
       <div id='routeContainer'>
-        <Header />
+        <Header /> 
+        <div id='routeSubCont' style={{display: "flex", flexDirection: "row", width: "100%", height: "100%", border: "yellow solid 2px"}}>
         <Left />
         <Center />
         <Right />
+        </div>
         <Footer />
       </div>
     </>
